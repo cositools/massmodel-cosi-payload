@@ -51,8 +51,23 @@ GuardRing_AlmostThere_Q0_L3.Parameters WholeWafer_Q0_L3 ActiveWafer_Q0_L3
 Shape Intersection GuardRing_Q0_L3
 GuardRing_Q0_L3.Parameters WaferOuterBox_Q0_L3 GuardRing_AlmostThere_Q0_L3
 
-### The final volume of the active detector GeWafer_Q0_L3 is defined in the .det files for each detector
-### since the simulation model and analysis model need different shapes to define this volume
+### The final volume of the active detector GeWafer_Q0_L3
+Volume GeWafer_Q0_L3
+GeWafer_Q0_L3.Material active_ge_recoil
+GeWafer_Q0_L3.Visibility 1
+GeWafer_Q0_L3.Color 4
+GeWafer_Q0_L3.Shape ActiveWafer_Q0_L3
+GeWafer_Q0_L3.Mother Detector_Q0_L3
+GeWafer_Q0_L3.Position {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
+
+# GuardRing detector volume
+Volume GeWaferGuardRing_Q0_L3
+GeWaferGuardRing_Q0_L3.Material active_ge_recoil
+GeWaferGuardRing_Q0_L3.Visibility 1
+GeWaferGuardRing_Q0_L3.Color 3
+GeWaferGuardRing_Q0_L3.Shape GuardRing_Q0_L3
+GeWaferGuardRing_Q0_L3.Position  {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
+GeWaferGuardRing_Q0_L3.Mother Detector_Q0_L3
 
 
 # Al dead layer on top

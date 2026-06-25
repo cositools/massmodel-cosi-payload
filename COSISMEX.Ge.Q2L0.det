@@ -5,16 +5,6 @@ Include COSISMEX.Ge.Q2L0.geo
 
 Strip3D               GeD_8
 
-
-Volume GeWafer_Q2_L0
-GeWafer_Q2_L0.Material active_ge_recoil
-GeWafer_Q2_L0.Visibility 1
-GeWafer_Q2_L0.Color 4
-GeWafer_Q2_L0.Shape ActiveWafer_Q2_L0
-GeWafer_Q2_L0.Mother Detector_Q2_L0
-GeWafer_Q2_L0.Position {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
-
-
 GeD_8.SensitiveVolume      GeWafer_Q2_L0
 GeD_8.DetectorVolume       GeWafer_Q2_L0
 
@@ -60,15 +50,6 @@ GeD_8.DriftConstant  0.007
 
 
 Simple GuardRingDetector_GeD_8
-
-
-Volume GeWaferGuardRing_Q2_L0
-GeWaferGuardRing_Q2_L0.Material active_ge_recoil
-GeWaferGuardRing_Q2_L0.Visibility 1
-GeWaferGuardRing_Q2_L0.Color 3
-GeWaferGuardRing_Q2_L0.Shape GuardRing_Q2_L0
-GeWaferGuardRing_Q2_L0.Position  {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
-GeWaferGuardRing_Q2_L0.Mother Detector_Q2_L0
 
 
 GuardRingDetector_GeD_8.SensitiveVolume     GeWaferGuardRing_Q2_L0
