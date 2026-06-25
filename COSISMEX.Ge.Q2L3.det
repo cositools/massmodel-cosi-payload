@@ -1,0 +1,107 @@
+#------------------------------------------------------------
+# Detector information:
+Include COSISMEX.Ge.Q2L3.geo
+
+
+Strip3D               GeD_11
+
+
+Volume GeWafer_Q2_L3
+GeWafer_Q2_L3.Material active_ge_recoil
+GeWafer_Q2_L3.Visibility 1
+GeWafer_Q2_L3.Color 4
+GeWafer_Q2_L3.Shape ActiveWafer_Q2_L3
+GeWafer_Q2_L3.Mother Detector_Q2_L3
+GeWafer_Q2_L3.Position {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
+
+
+GeD_11.SensitiveVolume      GeWafer_Q2_L3
+GeD_11.DetectorVolume       GeWafer_Q2_L3
+
+GeD_11.Offset                0.0 0.0
+GeD_11.StripNumber            64  64
+
+# COSI
+GeD_11.EnergyResolution   Gauss      0.0      0.0  1.32
+GeD_11.EnergyResolution   Gauss     60.0     60.0  1.32
+GeD_11.EnergyResolution   Gauss    122.0    122.0  1.42
+GeD_11.EnergyResolution   Gauss    365.0    365.0  1.58
+GeD_11.EnergyResolution   Gauss    662.0    662.0  1.68
+GeD_11.EnergyResolution   Gauss   1275.0   1275.0  1.79
+GeD_11.EnergyResolution   Gauss   1836.0   1836.0  1.86
+
+GeD_11.Overflow 1800
+
+# Both
+GeD_11.DepthResolutionThreshold 20.0
+GeD_11.DepthResolution      0.0  { 0.3 / 2.35 }
+GeD_11.DepthResolution     20.0  { 0.3 / 2.35 }
+GeD_11.DepthResolution     50.0  { 0.1 / 2.35 }
+GeD_11.DepthResolution     60.0  { 0.08 / 2.35 }
+GeD_11.DepthResolution     70.0  { 0.075 / 2.35 }
+GeD_11.DepthResolution     80.0  { 0.065 / 2.35 }
+GeD_11.DepthResolution    122.0  { 0.06 / 2.35 }
+GeD_11.DepthResolution    356.0  { 0.05 / 2.35 }
+GeD_11.DepthResolution    662.0  { 0.05 / 2.35 }
+GeD_11.DepthResolution   1836.0  { 0.05 / 2.35 }
+
+
+# ASIC
+GeD_11.TriggerThreshold     18
+GeD_11.NoiseThresholdEqualsTriggerThreshold  True
+
+
+# If I go smaller it gets too slow
+GeD_11.EnergyPerElectron 0.2
+
+# Jarred scaled to 1500 V
+GeD_11.DriftConstant  0.007
+
+
+
+Simple GuardRingDetector_GeD_11
+
+
+Volume GeWaferGuardRing_Q2_L3
+GeWaferGuardRing_Q2_L3.Material active_ge_recoil
+GeWaferGuardRing_Q2_L3.Visibility 1
+GeWaferGuardRing_Q2_L3.Color 3
+GeWaferGuardRing_Q2_L3.Shape GuardRing_Q2_L3
+GeWaferGuardRing_Q2_L3.Position  {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
+GeWaferGuardRing_Q2_L3.Mother Detector_Q2_L3
+
+
+GuardRingDetector_GeD_11.SensitiveVolume     GeWaferGuardRing_Q2_L3
+GuardRingDetector_GeD_11.DetectorVolume      GeWaferGuardRing_Q2_L3
+
+GuardRingDetector_GeD_11.TriggerThreshold      30
+GuardRingDetector_GeD_11.NoiseThresholdEqualsTriggerThreshold true
+
+GuardRingDetector_GeD_11.EnergyResolution Gaus 10      10        3.3
+GuardRingDetector_GeD_11.EnergyResolution Gaus 20      20        3.3
+GuardRingDetector_GeD_11.EnergyResolution Gaus 50      50        3.3
+GuardRingDetector_GeD_11.EnergyResolution Gaus 100     100       3.3
+GuardRingDetector_GeD_11.EnergyResolution Gaus 200     200       3.3
+GuardRingDetector_GeD_11.EnergyResolution Gaus 500     500       3.3
+GuardRingDetector_GeD_11.EnergyResolution Gaus 1000    1000      3.3
+GuardRingDetector_GeD_11.EnergyResolution Gaus 2000    2000      3.3
+GuardRingDetector_GeD_11.EnergyResolution Gaus 5000    5000      3.3
+
+
+
+#------------------------------------------------------------
+# Trigger information:
+
+Trigger Trigger_GeD_11
+Trigger_GeD_11.Detector GeD_11 1
+Trigger_GeD_11.TriggerByChannel true
+Trigger_GeD_11.Veto false
+
+
+Trigger GuardRingVeto_GeD_11
+GuardRingVeto_GeD_11.Veto true
+GuardRingVeto_GeD_11.TriggerByChannel true
+GuardRingVeto_GeD_11.Detector GuardRingDetector_GeD_11 1
+
+
+

@@ -1,0 +1,16 @@
+Include COSISMEX.Ge.Q0L0.geo
+Include COSISMEX.Ge.Q0L1.geo
+Include COSISMEX.Ge.Q0L2.geo
+Include COSISMEX.Ge.Q0L3.geo
+Include COSISMEX.Ge.Q1L0.geo
+Include COSISMEX.Ge.Q1L1.geo
+Include COSISMEX.Ge.Q1L2.geo
+Include COSISMEX.Ge.Q1L3.geo
+Include COSISMEX.Ge.Q2L0.geo
+Include COSISMEX.Ge.Q2L1.geo
+Include COSISMEX.Ge.Q2L2.geo
+Include COSISMEX.Ge.Q2L3.geo
+Include COSISMEX.Ge.Q3L0.geo
+Include COSISMEX.Ge.Q3L1.geo
+Include COSISMEX.Ge.Q3L2.geo
+Include COSISMEX.Ge.Q3L3.geo
