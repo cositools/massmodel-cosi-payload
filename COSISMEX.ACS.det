@@ -1,0 +1,300 @@
+#------------------------------------------------------------
+# Detector information:
+
+Scintillator     ACS_X0_0
+ACS_X0_0.DetectorVolume	    BGO_X0_0_Crystal
+ACS_X0_0.SensitiveVolume    BGO_X0_0_Crystal
+ACS_X0_0.TriggerThreshold   80.0
+ACS_X0_0.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_X0_0.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_X0_0.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_X0_1
+ACS_X0_1.DetectorVolume     BGO_X0_1_Crystal
+ACS_X0_1.SensitiveVolume    BGO_X0_1_Crystal
+ACS_X0_1.TriggerThreshold   80.0
+ACS_X0_1.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_X0_1.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_X0_1.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_X0_2
+ACS_X0_2.DetectorVolume     BGO_X0_2_Crystal
+ACS_X0_2.SensitiveVolume    BGO_X0_2_Crystal
+ACS_X0_2.TriggerThreshold   80.0
+ACS_X0_2.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_X0_2.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_X0_2.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_X1_0
+ACS_X1_0.DetectorVolume     BGO_X1_0_Crystal
+ACS_X1_0.SensitiveVolume    BGO_X1_0_Crystal
+ACS_X1_0.TriggerThreshold   80.0
+ACS_X1_0.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_X1_0.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_X1_0.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_X1_1
+ACS_X1_1.DetectorVolume     BGO_X1_1_Crystal
+ACS_X1_1.SensitiveVolume    BGO_X1_1_Crystal
+ACS_X1_1.TriggerThreshold   80.0
+ACS_X1_1.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_X1_1.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_X1_1.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_X1_2
+ACS_X1_2.DetectorVolume     BGO_X1_2_Crystal
+ACS_X1_2.SensitiveVolume    BGO_X1_2_Crystal
+ACS_X1_2.TriggerThreshold   80.0
+ACS_X1_2.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_X1_2.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_X1_2.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Y0_0
+ACS_Y0_0.DetectorVolume	    BGO_Y0_0_Crystal
+ACS_Y0_0.SensitiveVolume    BGO_Y0_0_Crystal
+ACS_Y0_0.TriggerThreshold   80.0
+ACS_Y0_0.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Y0_0.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Y0_0.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Y0_1
+ACS_Y0_1.DetectorVolume     BGO_Y0_1_Crystal
+ACS_Y0_1.SensitiveVolume    BGO_Y0_1_Crystal
+ACS_Y0_1.TriggerThreshold   80.0
+ACS_Y0_1.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Y0_1.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Y0_1.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Y0_2
+ACS_Y0_2.DetectorVolume     BGO_Y0_2_Crystal
+ACS_Y0_2.SensitiveVolume    BGO_Y0_2_Crystal
+ACS_Y0_2.TriggerThreshold   80.0
+ACS_Y0_2.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Y0_2.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Y0_2.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Y1_0
+ACS_Y1_0.DetectorVolume     BGO_Y1_0_Crystal
+ACS_Y1_0.SensitiveVolume    BGO_Y1_0_Crystal
+ACS_Y1_0.TriggerThreshold   80.0
+ACS_Y1_0.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Y1_0.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Y1_0.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Y1_1
+ACS_Y1_1.DetectorVolume     BGO_Y1_1_Crystal
+ACS_Y1_1.SensitiveVolume    BGO_Y1_1_Crystal
+ACS_Y1_1.TriggerThreshold   80.0
+ACS_Y1_1.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Y1_1.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Y1_1.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Y1_2
+ACS_Y1_2.DetectorVolume     BGO_Y1_2_Crystal
+ACS_Y1_2.SensitiveVolume    BGO_Y1_2_Crystal
+ACS_Y1_2.TriggerThreshold   80.0
+ACS_Y1_2.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Y1_2.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Y1_2.NoiseThresholdEqualsTriggerThreshold true
+
+
+Scintillator     ACS_Z0_0
+ACS_Z0_0.DetectorVolume	    BGO_Z0_0_Crystal
+ACS_Z0_0.SensitiveVolume    BGO_Z0_0_Crystal
+ACS_Z0_0.TriggerThreshold   80.0
+ACS_Z0_0.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Z0_0.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Z0_0.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Z0_1
+ACS_Z0_1.DetectorVolume     BGO_Z0_1_Crystal
+ACS_Z0_1.SensitiveVolume    BGO_Z0_1_Crystal
+ACS_Z0_1.TriggerThreshold   80.0
+ACS_Z0_1.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Z0_1.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Z0_1.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Z0_2
+ACS_Z0_2.DetectorVolume     BGO_Z0_2_Crystal
+ACS_Z0_2.SensitiveVolume    BGO_Z0_2_Crystal
+ACS_Z0_2.TriggerThreshold   80.0
+ACS_Z0_2.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Z0_2.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Z0_2.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Z0_3
+ACS_Z0_3.DetectorVolume     BGO_Z0_3_Crystal
+ACS_Z0_3.SensitiveVolume    BGO_Z0_3_Crystal
+ACS_Z0_3.TriggerThreshold   80.0
+ACS_Z0_3.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Z0_3.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Z0_3.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Z0_4
+ACS_Z0_4.DetectorVolume     BGO_Z0_4_Crystal
+ACS_Z0_4.SensitiveVolume    BGO_Z0_4_Crystal
+ACS_Z0_4.TriggerThreshold   80.0
+ACS_Z0_4.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Z0_4.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Z0_4.NoiseThresholdEqualsTriggerThreshold true
+
+
+Scintillator     ACS_Z1_0
+ACS_Z1_0.DetectorVolume	    BGO_Z1_0_Crystal
+ACS_Z1_0.SensitiveVolume    BGO_Z1_0_Crystal
+ACS_Z1_0.TriggerThreshold   80.0
+ACS_Z1_0.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Z1_0.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Z1_0.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Z1_1
+ACS_Z1_1.DetectorVolume     BGO_Z1_1_Crystal
+ACS_Z1_1.SensitiveVolume    BGO_Z1_1_Crystal
+ACS_Z1_1.TriggerThreshold   80.0
+ACS_Z1_1.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Z1_1.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Z1_1.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Z1_2
+ACS_Z1_2.DetectorVolume     BGO_Z1_2_Crystal
+ACS_Z1_2.SensitiveVolume    BGO_Z1_2_Crystal
+ACS_Z1_2.TriggerThreshold   80.0
+ACS_Z1_2.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Z1_2.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Z1_2.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Z1_3
+ACS_Z1_3.DetectorVolume     BGO_Z1_3_Crystal
+ACS_Z1_3.SensitiveVolume    BGO_Z1_3_Crystal
+ACS_Z1_3.TriggerThreshold   80.0
+ACS_Z1_3.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Z1_3.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Z1_3.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_Z1_4
+ACS_Z1_4.DetectorVolume     BGO_Z1_4_Crystal
+ACS_Z1_4.SensitiveVolume    BGO_Z1_4_Crystal
+ACS_Z1_4.TriggerThreshold   80.0
+ACS_Z1_4.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_Z1_4.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_Z1_4.NoiseThresholdEqualsTriggerThreshold true
+
+
+
+
+
+Trigger ACS_Veto_X0_0
+ACS_Veto_X0_0.Veto true
+ACS_Veto_X0_0.TriggerByDetector true
+ACS_Veto_X0_0.Detector ACS_X0_0 1
+
+Trigger ACS_Veto_X0_1
+ACS_Veto_X0_1.Veto true
+ACS_Veto_X0_1.TriggerByDetector true
+ACS_Veto_X0_1.Detector ACS_X0_1 1
+ 
+Trigger ACS_Veto_X0_2
+ACS_Veto_X0_2.Veto true
+ACS_Veto_X0_2.TriggerByDetector true
+ACS_Veto_X0_2.Detector ACS_X0_2 1
+
+Trigger ACS_Veto_X1_0
+ACS_Veto_X1_0.Veto true
+ACS_Veto_X1_0.TriggerByDetector true
+ACS_Veto_X1_0.Detector ACS_X1_0 1
+
+Trigger ACS_Veto_X1_1
+ACS_Veto_X1_1.Veto true
+ACS_Veto_X1_1.TriggerByDetector true
+ACS_Veto_X1_1.Detector ACS_X1_1 1
+ 
+Trigger ACS_Veto_X1_2
+ACS_Veto_X1_2.Veto true
+ACS_Veto_X1_2.TriggerByDetector true
+ACS_Veto_X1_2.Detector ACS_X1_2 1
+                                                  
+Trigger ACS_Veto_Y0_0
+ACS_Veto_Y0_0.Veto true
+ACS_Veto_Y0_0.TriggerByDetector true
+ACS_Veto_Y0_0.Detector ACS_Y0_0 1
+
+Trigger ACS_Veto_Y0_1
+ACS_Veto_Y0_1.Veto true
+ACS_Veto_Y0_1.TriggerByDetector true
+ACS_Veto_Y0_1.Detector ACS_Y0_1 1
+ 
+Trigger ACS_Veto_Y0_2
+ACS_Veto_Y0_2.Veto true
+ACS_Veto_Y0_2.TriggerByDetector true
+ACS_Veto_Y0_2.Detector ACS_Y0_2 1
+
+Trigger ACS_Veto_Y1_0
+ACS_Veto_Y1_0.Veto true
+ACS_Veto_Y1_0.TriggerByDetector true
+ACS_Veto_Y1_0.Detector ACS_Y1_0 1
+
+Trigger ACS_Veto_Y1_1
+ACS_Veto_Y1_1.Veto true
+ACS_Veto_Y1_1.TriggerByDetector true
+ACS_Veto_Y1_1.Detector ACS_Y1_1 1
+ 
+Trigger ACS_Veto_Y1_2
+ACS_Veto_Y1_2.Veto true
+ACS_Veto_Y1_2.TriggerByDetector true
+ACS_Veto_Y1_2.Detector ACS_Y1_2 1
+                                                  
+
+
+Trigger ACS_Veto_Z0_0
+ACS_Veto_Z0_0.Veto true
+ACS_Veto_Z0_0.TriggerByDetector true
+ACS_Veto_Z0_0.Detector ACS_Z0_0 1
+
+Trigger ACS_Veto_Z0_1
+ACS_Veto_Z0_1.Veto true
+ACS_Veto_Z0_1.TriggerByDetector true
+ACS_Veto_Z0_1.Detector ACS_Z0_1 1
+ 
+Trigger ACS_Veto_Z0_2
+ACS_Veto_Z0_2.Veto true
+ACS_Veto_Z0_2.TriggerByDetector true
+ACS_Veto_Z0_2.Detector ACS_Z0_2 1
+
+Trigger ACS_Veto_Z0_3
+ACS_Veto_Z0_3.Veto true
+ACS_Veto_Z0_3.TriggerByDetector true
+ACS_Veto_Z0_3.Detector ACS_Z0_3 1
+ 
+Trigger ACS_Veto_Z0_4
+ACS_Veto_Z0_4.Veto true
+ACS_Veto_Z0_4.TriggerByDetector true
+ACS_Veto_Z0_4.Detector ACS_Z0_4 1
+
+
+Trigger ACS_Veto_Z1_0
+ACS_Veto_Z1_0.Veto true
+ACS_Veto_Z1_0.TriggerByDetector true
+ACS_Veto_Z1_0.Detector ACS_Z1_0 1
+
+Trigger ACS_Veto_Z1_1
+ACS_Veto_Z1_1.Veto true
+ACS_Veto_Z1_1.TriggerByDetector true
+ACS_Veto_Z1_1.Detector ACS_Z1_1 1
+ 
+Trigger ACS_Veto_Z1_2
+ACS_Veto_Z1_2.Veto true
+ACS_Veto_Z1_2.TriggerByDetector true
+ACS_Veto_Z1_2.Detector ACS_Z1_2 1
+
+Trigger ACS_Veto_Z1_3
+ACS_Veto_Z1_3.Veto true
+ACS_Veto_Z1_3.TriggerByDetector true
+ACS_Veto_Z1_3.Detector ACS_Z1_3 1
+ 
+Trigger ACS_Veto_Z1_4
+ACS_Veto_Z1_4.Veto true
+ACS_Veto_Z1_4.TriggerByDetector true
+ACS_Veto_Z1_4.Detector ACS_Z1_4 1
+
+
+
