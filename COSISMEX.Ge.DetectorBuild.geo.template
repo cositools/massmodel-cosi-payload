@@ -76,7 +76,7 @@ stripsAl_QQ_QQ.Visibility 1
 stripsAl_QQ_QQ.Color 7
 stripsAl_QQ_QQ.Shape AlDead1_QQ_QQ
 stripsAl_QQ_QQ.Mother Detector_QQ_QQ
-stripsAl_QQ_QQ.Position {-0.6555 + Xshift} {0.0 + Yshift} {0.80025 + Zshift}
+stripsAl_QQ_QQ.Position {-0.6555 + Xshift} {0.0 + Yshift} {DetectorHeight_QQ_QQ/2.0 + 0.00025 + Zshift}
 
 Shape BRIK stripsAl2_QQ_QQ
 stripsAl2_QQ_QQ.Parameters 3.71 3.71 0.00025
@@ -93,7 +93,7 @@ stripsAlbot_QQ_QQ.Visibility 1
 stripsAlbot_QQ_QQ.Color 7
 stripsAlbot_QQ_QQ.Shape AlDead2_QQ_QQ
 stripsAlbot_QQ_QQ.Mother Detector_QQ_QQ
-stripsAlbot_QQ_QQ.Position {-0.6555 + Xshift} {0.0 + Yshift} {-0.80025 + Zshift}
+stripsAlbot_QQ_QQ.Position {-0.6555 + Xshift} {0.0 + Yshift} {-{DetectorHeight_QQ_QQ/2.0} - 0.00025 + Zshift}
 
 # Handles etc.
 Volume GeHandleBridge_QQ_QQ

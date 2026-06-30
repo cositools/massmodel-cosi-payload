@@ -86,7 +86,7 @@ stripsAl_Q1_L1.Visibility 1
 stripsAl_Q1_L1.Color 7
 stripsAl_Q1_L1.Shape AlDead1_Q1_L1
 stripsAl_Q1_L1.Mother Detector_Q1_L1
-stripsAl_Q1_L1.Position {-0.6555 + Xshift} {0.0 + Yshift} {0.80025 + Zshift}
+stripsAl_Q1_L1.Position {-0.6555 + Xshift} {0.0 + Yshift} {DetectorHeight_Q1_L1/2.0 + 0.00025 + Zshift}
 
 Shape BRIK stripsAl2_Q1_L1
 stripsAl2_Q1_L1.Parameters 3.71 3.71 0.00025
@@ -103,7 +103,7 @@ stripsAlbot_Q1_L1.Visibility 1
 stripsAlbot_Q1_L1.Color 7
 stripsAlbot_Q1_L1.Shape AlDead2_Q1_L1
 stripsAlbot_Q1_L1.Mother Detector_Q1_L1
-stripsAlbot_Q1_L1.Position {-0.6555 + Xshift} {0.0 + Yshift} {-0.80025 + Zshift}
+stripsAlbot_Q1_L1.Position {-0.6555 + Xshift} {0.0 + Yshift} {-{DetectorHeight_Q1_L1/2.0} - 0.00025 + Zshift}
 
 # Handles etc.
 Volume GeHandleBridge_Q1_L1
@@ -725,14 +725,15 @@ In_PassGe_Q1_L1.Copy In_PassGe3_Q1_L1
 In_PassGe_Q1_L1.Copy In_PassGe4_Q1_L1
 
 
+#06/26 (CK): Overlap with Holder_Q1_L1. Will be solved with CAD-based model
 In_PassGe1_Q1_L1.Mother Detector_Q1_L1
 In_PassGe1_Q1_L1.Position {3.785 + Xshift} {0.0 + Yshift} {{-DetectorHeight_Q1_L1/2} + HandleThickness_Q1_L1 + 0.005 + Zshift}
-In_PassGe2_Q1_L1.Mother Detector_Q1_L1
-In_PassGe2_Q1_L1.Position {3.785+Xshift} {0.0+Yshift} {{-DetectorHeight_Q1_L1/2} + HandleThickness_Q1_L1 + 0.025 + Zshift}
+#In_PassGe2_Q1_L1.Mother Detector_Q1_L1
+#In_PassGe2_Q1_L1.Position {3.785+Xshift} {0.0+Yshift} {{-DetectorHeight_Q1_L1/2} + HandleThickness_Q1_L1 + 0.025 + Zshift}
 In_PassGe3_Q1_L1.Mother Detector_Q1_L1
 In_PassGe3_Q1_L1.Position {-5.096+Xshift} {0.0+Yshift} {{-DetectorHeight_Q1_L1/2} + HandleThickness_Q1_L1 + 0.005 + Zshift}
-In_PassGe4_Q1_L1.Mother Detector_Q1_L1
-In_PassGe4_Q1_L1.Position {-5.096+Xshift} {0.0+Yshift} {{-DetectorHeight_Q1_L1/2} + HandleThickness_Q1_L1 + 0.025 + Zshift}
+#In_PassGe4_Q1_L1.Mother Detector_Q1_L1
+#In_PassGe4_Q1_L1.Position {-5.096+Xshift} {0.0+Yshift} {{-DetectorHeight_Q1_L1/2} + HandleThickness_Q1_L1 + 0.025 + Zshift}
 
 
 
