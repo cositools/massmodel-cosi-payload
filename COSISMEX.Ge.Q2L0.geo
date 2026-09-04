@@ -418,7 +418,7 @@ HolderBlockMinusRodHole_Q2_L0.Parameters HolderBlockPlusBrikTab15_Q2_L0 HolderRo
 Volume Holder_Q2_L0
 Holder_Q2_L0.Material al6061
 Holder_Q2_L0.Visibility 1
-Holder_QD00.Color 15
+Holder_Q2_L0.Color 15
 Holder_Q2_L0.Shape HolderBlockMinusRodHole_Q2_L0
 Holder_Q2_L0.Rotation 0.0 0.0 0.0
 Holder_Q2_L0.Position {-0.6555 + Xshift} {-0.574 + Yshift} {-.0005 + Zshift}
