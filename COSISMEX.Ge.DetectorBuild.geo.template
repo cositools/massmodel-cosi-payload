@@ -408,7 +408,7 @@ HolderBlockMinusRodHole_QQ_QQ.Parameters HolderBlockPlusBrikTab15_QQ_QQ HolderRo
 Volume Holder_QQ_QQ
 Holder_QQ_QQ.Material al6061
 Holder_QQ_QQ.Visibility 1
-Holder_QD00.Color 15
+Holder_QQ_QQ.Color 15
 Holder_QQ_QQ.Shape HolderBlockMinusRodHole_QQ_QQ
 Holder_QQ_QQ.Rotation 0.0 0.0 0.0
 Holder_QQ_QQ.Position {-0.6555 + Xshift} {-0.574 + Yshift} {-.0005 + Zshift}

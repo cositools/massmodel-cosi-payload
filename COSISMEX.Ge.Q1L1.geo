@@ -3,7 +3,7 @@ Constant HandleSpan_Q1_L1 9.6
 Constant DetectorWidthX_Q1_L1 8.06
 Constant DetectorWidthY_Q1_L1 8.06
 Constant DetectorHeight_Q1_L1 1.56
-Constant HandleThickness_Q1_L1 0.72
+Constant HandleThickness_Q1_L1 0.56
 Constant HandleBridgeThickness_Q1_L1 0.33
 
 Constant GuardRingSize_Q1_L1 0.3
@@ -418,7 +418,7 @@ HolderBlockMinusRodHole_Q1_L1.Parameters HolderBlockPlusBrikTab15_Q1_L1 HolderRo
 Volume Holder_Q1_L1
 Holder_Q1_L1.Material al6061
 Holder_Q1_L1.Visibility 1
-Holder_QD00.Color 15
+Holder_Q1_L1.Color 15
 Holder_Q1_L1.Shape HolderBlockMinusRodHole_Q1_L1
 Holder_Q1_L1.Rotation 0.0 0.0 0.0
 Holder_Q1_L1.Position {-0.6555 + Xshift} {-0.574 + Yshift} {-.0005 + Zshift}
