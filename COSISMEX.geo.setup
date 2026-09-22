@@ -27,7 +27,9 @@ WorldVolume.Material vacuum
 WorldVolume.Shape TUBS 0 376 400 0 360
 WorldVolume.Mother 0
 
+# Shift of 0.364 cm added to align origin with center point between L1 and L2
+
 ShieldedTelescope.Mother WorldVolume
 ShieldedTelescope.Rotation 0.0 0.0 0.0
-ShieldedTelescope.Position 0 0 0
+ShieldedTelescope.Position 0 0 0.364
 
