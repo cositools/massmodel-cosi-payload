@@ -1,8 +1,8 @@
 #
 
-
-Name materials
-Version 0.1
+# This was overwriting Geometry Name and Version. Commenting out.
+#Name materials
+#Version 0.1
 
 AbsorptionFileDirectory ./absorptions
 
